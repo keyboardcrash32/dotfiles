@@ -7,6 +7,7 @@ call plug#end()
 nnoremap <Esc> :nohlsearch<CR>
 syntax on
 set relativenumber
+set number
 
 set backspace=indent,eol,start
 set mouse=a
