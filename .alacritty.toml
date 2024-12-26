@@ -9,19 +9,19 @@ shape = "Block"
 size = 12
 
 [font.bold]
-family = "JetBrains Mono"
+family = "MesloLGS NF"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrains Mono"
+family = "MesloLGS NF"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrains Mono"
+family = "MesloLGS NF"
 style = "Italic"
 
 [font.normal]
-family = "JetBrains Mono"
+family = "MesloLGS NF"
 style = "Regular"
 
 [[keyboard.bindings]]
