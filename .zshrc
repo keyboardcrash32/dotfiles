@@ -8,19 +8,19 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
+
 plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
-# Aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
-alias updatesystem="sudo pacman -Syu && yay -Syu && flatpak update"
+alias updatesystem="yay && flatpak update"
 alias hgrep="history | grep -i"
 alias mem5="ps auxf | sort -nr -k 4 | head -5"
 alias cpu5="ps auxf | sort -nr -k 3 | head -5"
 alias i3config="vim ~/.config/i3/config"
-alias i3statconfig="vim ~/.i3status.conf"
+alias polybarconfig="vim ~/.config/polybar/config.ini"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
