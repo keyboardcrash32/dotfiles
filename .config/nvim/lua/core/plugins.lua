@@ -37,12 +37,11 @@ require("lazy").setup({
     },
     { 'nvim-treesitter/nvim-treesitter' },
     { 'neovim/nvim-lspconfig' },
-    { 'joshdick/onedark.vim' },
     {'hrsh7th/cmp-nvim-lsp'},
     {'hrsh7th/cmp-buffer'},
     {'hrsh7th/cmp-path'},
-    {'hrsh7th/cmp-cmdline'}, 
-    {'hrsh7th/nvim-cmp'}, 
+    {'hrsh7th/cmp-cmdline'},
+    {'hrsh7th/nvim-cmp'},
     {'lewis6991/gitsigns.nvim'},
     {"williamboman/mason.nvim"},
     {'windwp/nvim-autopairs'},
@@ -51,11 +50,9 @@ require("lazy").setup({
         tag = '0.1.1',
         dependencies = {'nvim-lua/plenary.nvim'}
     },
-    { 'projekt0n/github-nvim-theme', name = 'github-theme' }
+    -- { 'projekt0n/github-nvim-theme', name = 'github-theme' }
+    { "EdenEast/nightfox.nvim" }
   },
-  -- Configure any other settings here. See the documentation for more details.
-  -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "habamax" } },
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
